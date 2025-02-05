@@ -11,7 +11,7 @@ const navItems = [
 const NavBar = () => {
   return (
     <nav className='navBar'>
-        <div>AA</div>
+        <div className='logo'>AA</div>
         <ul className='list-container'>
             {navItems.length !== 0 ? 
             navItems.map((item, index) => (

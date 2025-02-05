@@ -1,7 +1,9 @@
 .navBar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background-color: #3d5290;
 }
 
 .list-container {
@@ -11,4 +13,13 @@
 }
 .list-container li {
     list-style: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    padding: 0.6rem;
 }
