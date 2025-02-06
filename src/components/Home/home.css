@@ -17,4 +17,29 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
+    
+}
+.intro-text {
+    font-size: 0.8rem;
+}
+.parent-home-container {
+    display: flex;
+    flex-direction: column;
+}
+.heading-intro {
+    text-align: center;
+    font-family:  'Playfair', sans-serif;
+    font-size: 3rem;
+    color: #3d5290;
+    text-decoration: underline;
+}
+.skills {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.skills p {
+    width: 120px;
 }
