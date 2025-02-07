@@ -1,0 +1,26 @@
+.about-intro {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Playfair', sans-serif;
+    color: #3d5290;
+    text-decoration: underline;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+.about-main-intro {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.skills-intro {
+    max-width: 60%;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
