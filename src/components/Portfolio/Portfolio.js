@@ -1,4 +1,5 @@
 import React from 'react';
+import './portfolio.css'
 
 const PortfolioItems = [
   {
@@ -23,21 +24,21 @@ const PortfolioItems = [
 const Portfolio = () => {
   return (
     <div>
-      <h1>My Portfolio</h1>
-      <p> I take pride in paying attention to the smallest details and making sure
+      <h1 className='intro'>My Portfolio</h1>
+      <p className='intro-paragraph'> I take pride in paying attention to the smallest details and making sure
         my work is pixel perfect. I am excited to bring my skills and experience
         to help businesses achieve their goals</p>
-        <div>
+        <div className="profile-container">
           {PortfolioItems.length !==0 ? 
           PortfolioItems.map((elements, index) => (
-            <div key={index}>
+            <div key={index} className="proLink">
               <img src={elements.photo} alt='website' loading='lazy'/>
               <p>{elements.name}</p>
               <a href={elements.website} target='_blank' rel="noreferrer">
-                <button>Website</button>
+                <button className="btn1">Website</button>
               </a>
               <a href={elements.github} target='_blank' rel="noreferrer">
-                <button>Github</button>
+                <button className="btn2">Github</button>
               </a>
             </div>
           ))

@@ -1,0 +1,78 @@
+.intro {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.8;
+    text-decoration: underline;
+    text-decoration-color: #3d5290;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 0;
+    color: #3d5290;
+}
+.intro-paragraph {
+    text-align: center;
+    margin: 1rem 10rem;
+    font-family: 'Poppins', sans-serif;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.proLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+.btn1 {
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    background: #3d5290;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: none;
+}
+.btn2 {
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+    background: #3d5290;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: none;
+    
+}
+.btn2:hover{
+    background-color: #adbbda;
+    color: black;
+    padding: 8px 10px;
+    
+}
+.btn1:hover{
+    background-color: #adbbda;
+    color: black;
+    padding: 8px 10px;   
+}
+.proLink:hover .btn1,
+.proLink:hover .btn2 {
+    display: block;
+}
