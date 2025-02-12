@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className='parent-home-container'>
       <div className='home-container'>
-        <div>
+        <div className='home-intro'>
           <p><span className='greetings'>Hello</span> My name is {data.name}</p>
           <p>{data.profession}</p>
           <p className='intro-text'>I'm a skilled frontend website developer with<br></br>

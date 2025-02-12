@@ -19,7 +19,9 @@ const NavBar = () => {
     }
   return (
     <nav className='navBar'>
-        <div className='logo'>AA</div>
+        <div className='logo'>
+            <p>AA</p>
+        </div>
         <ul className={`list-container ${showMenu ? 'open' : ''}`}>
             {navItems.length !== 0 ? 
             navItems.map((item, index) => (

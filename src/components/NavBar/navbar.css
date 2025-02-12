@@ -1,9 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
 .navBar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 2rem;
     background-color:  #adbbda;
+}
+.logo p {
+    font-family: "Grechen Fuemen", serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-top: 0;
+    margin: 0;
 }
 .menu {
     display: none;
