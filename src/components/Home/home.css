@@ -43,3 +43,12 @@ body {
 .skills p {
     width: 120px;
 }
+@media (max-width: 780px) {
+    .home-container {
+        display: flex;
+        flex-direction:column-reverse;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+}

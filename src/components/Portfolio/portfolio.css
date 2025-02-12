@@ -1,7 +1,6 @@
 .intro {
     text-align: center;
     font-size: 3rem;
-    font-weight: 500;
     line-height: 1.8;
     text-decoration: underline;
     text-decoration-color: #3d5290;
@@ -75,4 +74,12 @@
 .proLink:hover .btn1,
 .proLink:hover .btn2 {
     display: block;
+}
+@media (max-width: 576px) and (max-width: 780px) {
+    .intro-paragraph {
+        font-size: 0.6rem;
+        width: 70vw;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }

@@ -1,5 +1,6 @@
-import React from 'react';
-import './navbar.css'
+import React, {useState} from 'react';
+import './navbar.css';
+import { MdMenu } from "react-icons/md";
 
 const navItems = [
     {item: 'Home', to: '#home'},
@@ -9,10 +10,17 @@ const navItems = [
 ]
 
 const NavBar = () => {
+    const [showMenu, setShowMenu] = useState(false);
+
+
+    const handleToggleMenu = () => {
+        setShowMenu(!showMenu)
+        console.log(showMenu)
+    }
   return (
     <nav className='navBar'>
         <div className='logo'>AA</div>
-        <ul className='list-container'>
+        <ul className={`list-container ${showMenu ? 'open' : ''}`}>
             {navItems.length !== 0 ? 
             navItems.map((item, index) => (
                 <li key={index}>
@@ -21,6 +29,10 @@ const NavBar = () => {
             ))
             :<p>No items found</p> }
         </ul>
+        <div className='menu' onClick={handleToggleMenu}>
+            <MdMenu size={30} />
+        </div>
+        
     </nav>
   )
 }
