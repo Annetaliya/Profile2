@@ -29,6 +29,11 @@
     font-size: 1.2rem;
     color: #fff;
     cursor: pointer;
+
+}
+.list-container li:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 .logo {
     width: 30px;
